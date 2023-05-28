@@ -1,0 +1,20 @@
+/*按钮美化*/
+.anniu{
+  width:80vw;
+  height:50px;
+  padding:0;
+  margin:0 auto;
+  background-color:#008e56;
+  font-size:20px;
+  border: 0.5px; solid;
+  border-radius:10px;
+/*垂直居中代码*/
+  display: flex;
+  display: -webkit-flex;
+  align-items:center;
+  justify-content: center;
+  position: relative; /** 相对布局 **/
+}
+.anniu:active{
+  top: 2px; /**向下偏移1px **/
+}
